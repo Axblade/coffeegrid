@@ -283,16 +283,3 @@
       loadList()
     )
 )( jQuery )
-
-# json data preview
-# {"data":[
-#   {"id":1,"name":"e.sypachev@eis.ru","inn":"1234567890","address":"asd","phone":"0000000000","status":0,"deleted":false,"nonLocked":true},
-#   {"id":2,"name":"eugene.sypachev@gmail.com","inn":"1234567890","address":"asd","phone":"1111111111","status":0,"deleted":false,"nonLocked":true},
-#   {"id":3,"name":"e.sypachev@eis.ru","inn":"1234567890","address":"e.sypachev@eis.ru","phone":"0000000000","status":0,"deleted":false,"nonLocked":true},
-#   {"id":4,"name":"admin","inn":"1234567890","address":"asd","phone":"9999999999","status":0,"deleted":false,"nonLocked":true},
-#   {"id":5,"name":"e.sypachev@eis.ru","inn":"1234567890","address":"asd","phone":"2222222222","status":0,"deleted":false,"nonLocked":true}
-# ],
-# "page":1,
-# "perPage":10,
-# "total":20,
-# "options":""}
