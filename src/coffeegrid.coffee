@@ -36,14 +36,11 @@
 
     # clear <table> tag
     clearTable = () =>
-      $(@table).text("")
       $(@table).removeChildren
 
     # cleat only <tbody> of <table>
     clearTableBody = () =>
-      $("div.wrap.container." + @tableId).text("")
       $("div.wrap.container." + @tableId).removeChildren
-      $("#" + @tableId + " tbody").text("")
       $("#" + @tableId + " tbody").removeChildren
 
     # draw <thead>, values are taken from "headers" array
