@@ -9,6 +9,15 @@ This is jQuery plugin, the main aim of it is to form tables with AJAX calls
 Modern jQuery is required (versions 1.10.*, 2.* or above).
 This could be working with older versions.
 
+## Installing
+
+As you have installed jQuery, you have to complete this simple steps:
+
+1. Copy compiled version from repo or clone it.
+2. Add _script_ tag, pointing to the library.
+
+## Configuring plugin
+
 # Contributing
 
 To do so, you can :
