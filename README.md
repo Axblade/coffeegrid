@@ -18,6 +18,17 @@ As you have installed jQuery, you have to complete this simple steps:
 
 ## Configuring plugin
 
+To initialize plugin you have to add this code
+
+    $('css-selector-to-target-div').coffeegrid();
+
+This will initialize CoffeeGrid with default parameters.
+To configure CoffeeGrid you should call this:
+
+    $('css-selector-to-target-div').coffeegrid(params);
+
+Where 'params' is javascript object with all config you have to change.
+
 # Contributing
 
 To do so, you can :
