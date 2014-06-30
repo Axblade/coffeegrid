@@ -28,15 +28,12 @@
     };
     clearTable = (function(_this) {
       return function() {
-        $(_this.table).text("");
         return $(_this.table).removeChildren;
       };
     })(this);
     clearTableBody = (function(_this) {
       return function() {
-        $("div.wrap.container." + _this.tableId).text("");
         $("div.wrap.container." + _this.tableId).removeChildren;
-        $("#" + _this.tableId + " tbody").text("");
         return $("#" + _this.tableId + " tbody").removeChildren;
       };
     })(this);

@@ -14,6 +14,10 @@ module.exports = (grunt) ->
           "compiled/coffeegrid.css": "src/coffeegrid.less"
         options:
           cleancss: true
+    jasmine_node:
+      options:
+        coffee: true
+        extensions: 'coffee'
     watch:
       scripts:
         tasks: ["coffee:compile", "less:compile"]
@@ -27,5 +31,7 @@ module.exports = (grunt) ->
 
   grunt.loadNpmTasks "grunt-contrib-watch"
 
-  grunt.registerTask "default", ["coffee:compile", "less:compile"]
+  grunt.loadNpmTasks "grunt-jasmine-node"
+
+  grunt.registerTask "default", ["jasmine_node", "coffee:compile", "less:compile"]
 
