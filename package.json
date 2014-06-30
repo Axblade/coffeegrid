@@ -5,6 +5,11 @@
     "grunt": "~0.4.5",
     "grunt-contrib-coffee": "latest",
     "grunt-contrib-less": "latest",
-    "grunt-contrib-watch": "latest"
+    "grunt-contrib-watch": "latest",
+    "jasmine-node": "latest",
+    "jquery": "latest",
+    "jsdom": "latest",
+    "jasmine-jquery": "latest",
+    "grunt-jasmine-node": "latest"
   }
 }
