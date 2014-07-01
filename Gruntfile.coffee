@@ -16,8 +16,10 @@ module.exports = (grunt) ->
           cleancss: true
     jasmine_node:
       options:
+        match: '.'
         coffee: true
         extensions: 'coffee'
+      test: ['spec/']
     watch:
       scripts:
         tasks: ["coffee:compile", "less:compile"]
@@ -33,5 +35,5 @@ module.exports = (grunt) ->
 
   grunt.loadNpmTasks "grunt-jasmine-node"
 
-  grunt.registerTask "default", ["jasmine_node", "coffee:compile", "less:compile"]
+  grunt.registerTask "default", ["jasmine_node:test", "coffee:compile", "less:compile"]
 
