@@ -37,3 +37,4 @@ module.exports = (grunt) ->
 
   grunt.registerTask "default", ["jasmine_node:test", "coffee:compile", "less:compile"]
 
+  grunt.registerTask "test", ["jasmine_node:test"]
